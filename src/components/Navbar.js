@@ -39,6 +39,11 @@ export default function Navbar(){
     function closeSidebar(){
         setShowSidebar(false)
     }
+    
+     window.onload = function() {
+        var emoji = document.querySelector('.emoji');
+        emoji.style.animation = 'emojiAnimation 0.6s linear';
+      }
     return (
         <>
             <div className="navbar container">
