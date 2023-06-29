@@ -47,7 +47,7 @@ export default function Navbar(){
     return (
         <>
             <div className="navbar container">
-                <Link to="/" className="logo">F<span class="emoji">&#128523;&#128523;</span>dCourt</Link>
+                <Link to="/" className="logo">F<span class="emoji">oo</span>dCourt</Link>
                 <div className="nav-links">
                     { links.map(link => (
                         <Link className={location.pathname === link.path ? "active" : ""} to={link.path} key={link.name}>{link.name}</Link>
