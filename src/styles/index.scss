@@ -331,14 +331,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.emoji {
-  transform: scale(0.8);
-  display: inline-block;
-  font-size: 20px;
-  padding-left: -10px;
 
-  letter-spacing: -6px;
-}
 @keyframes emojiAnimation {
   0% {
     transform: rotate(0deg);
